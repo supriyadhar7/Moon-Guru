@@ -8,6 +8,13 @@
   padding-bottom: 300px;
   margin: 0px;
 }
+.hello{
+  font-size: 40px;
+}
+
+
+
+
 body{
   margin:0px;
   text-align: center;
@@ -73,5 +80,23 @@ body{
 }
 
 button {
-  background-color: purple;
+  background-color: lightblue;
+  height:50px;
+  width:250px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.name-input{
+  width:300px;
+  height:30px;
+  border: dotted grey;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+
+}
+.enter{
+  height:40px;
+  width:140px;
+  background-color: lightyellow;
 }

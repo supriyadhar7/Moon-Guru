@@ -21,12 +21,22 @@ var environmental = $('.environmental');
 var physical = $('.physical');
 var spiritual = $('.spiritual');
 var emotional = $('.emotional');
+var buttonEnter = $('.enter');
 
 mental.css('display', 'none');
 physical.css('display', 'none');
 environmental.css('display', 'none');
 emotional.css('display', 'none');
 spiritual.css('display', 'none');
+
+buttonEnter.on("click", enterButton);
+
+function enterButton() {
+  var name = $('.name-input').val();
+  $('.prescription').text(`${name}'s health and wellness prescription`);
+  $('.hi').text(`Nice to meet you, ${name}.`)
+}
+
 
 buttonYes.on("click", displayAdviceYes);
 
