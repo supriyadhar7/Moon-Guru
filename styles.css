@@ -1,24 +1,33 @@
 .title{
   text-align: center;
   font-family: cursive;
-  background-color:rgb(59, 18, 59);
-  color:#EDDBC7;
+  background-image: url("https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+  background-repeat: no-repeat;
+  background-size: 1600px 850px;
+  color:#3D5B7A;
   font-size: 90px;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 340px;
+  padding-bottom: 340px;
   margin: 0px;
 }
 .hello{
+  font-size: 80px;
+}
+.hi{
+  font-size: 65px;
+}
+.present{
   font-size: 40px;
 }
-
 
 
 
 body{
   margin:0px;
   text-align: center;
-
+  color: #dcdde1;
+  background-color:#3B5e80;
+  font-family: 'Quicksand', sans-serif;
 }
 .title .hello{
   margin-top: 0px;
@@ -50,6 +59,26 @@ body{
 }
 
 .mentalPic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.physicalPic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.spiritualPic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.emotionalPic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.environmentalPic{
   height: 200px;
   width: 200px;
   object-fit: cover;
@@ -93,10 +122,59 @@ button {
   border-radius: 20px;
   font-size: 14px;
   text-align: center;
-
+  background-color: #dcdde1;
 }
 .enter{
   height:40px;
   width:140px;
   background-color: lightyellow;
+}
+.hi{
+  font-size: 55px;
+}
+.intro {
+background-color: #3B5e80;
+padding-top:150px;
+padding-bottom: 200px;
+margin:0px;
+margin-bottom: 0px;
+}
+.present{
+  background-color: #3B5e80;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+label{
+  font-size: 30px;
+  color: lightyellow;
+}
+.pg3{
+  background-color: #3B5e80;
+  padding-top:200px;
+  padding-bottom: 200px;
+  margin:0px;
+}
+.pg4{
+  background-color: #3b5e80;
+  padding-top:200px;
+  padding-bottom: 200px;
+  margin:0px;
+}
+.pg5{
+  background-color: #3b5e80;
+  padding-top:200px;
+  padding-bottom: 200px;
+  margin:0px;
+}
+.pg6{
+  background-color: #3b5e80;
+  padding-top:200px;
+  padding-bottom: 200px;
+  margin:0px;
+}
+.pg7{
+  background-color: #3B5e80;
+  padding-top:200px;
+  padding-bottom: 200px;
+  margin:0px;
 }
