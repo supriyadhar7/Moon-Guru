@@ -129,8 +129,8 @@ function displayAdvice5() {
   button5.css('background-color', '#dcdde1');
   spiritual.append(`<h3>Spiritual</h3>`);
   spiritual.append(`<img class="spiritualPic" src ="https://images.unsplash.com/photo-1502230831726-fe5549140034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">`);
-  spiritual.append(`<p><strongKeep your face always toward the sunshine></strong></p>`)
-  spiritual.append(`<p>Try aroma therapy with essential oils and get in tune with your innerself.</p>`);
+  spiritual.append(`<p><strong>Keep your face always toward the sunshine></strong></p>`)
+  spiritual.append(`<p>Try aromatherapy with essential oils and get in tune with your innerself.</p>`);
 }
 
 button6.on("click", displayAdvice6);
@@ -140,7 +140,7 @@ function displayAdvice6() {
   button6.css('background-color', '#dcdde1');
   spiritual.append(`<h3>Spiritual</h3>`);
   spiritual.append(`<img class="spiritualPic" src ="https://images.unsplash.com/photo-1502230831726-fe5549140034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">`);
-  spiritual.append(`<p><strong>To keep your balance you must keep moving</strong></p>`);
+  spiritual.append(`<p><strong>To keep your balance, you must keep moving</strong></p>`);
   spiritual.append(`<p>Goal: Take a walk in the rain. Forget where you have to be, what you have to do, and who you need to be and just give yourself to a rainwater cleanse</p>`)
 }
 
@@ -163,8 +163,8 @@ function displayAdvice8() {
   button8.css('background-color', '#dcdde1');
   spiritual.append(`<h3>Spiritual</h3>`);
   spiritual.append(`<img class="spiritualPic" src="https://images.unsplash.com/photo-1502230831726-fe5549140034?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">`);
-  spiritual.append(`<p><strong>I’m not afraid of storms, for I’m learning to sail my ship</strong></p>`);
-  spiritual.append(`<p>Find a quiet, alone spot and lay down. Allow your body and mind to relax–let go of life’s noise and centre in on yourself</p>`)
+  spiritual.append(`<p><strong>I’m not afraid of storms, for I’m learning to sail my ship.</strong></p>`);
+  spiritual.append(`<p>Find a quiet, alone spot and lay down. Allow your body and mind to relax–let go of life’s noise and center in on yourself</p>`)
 }
 
 button9.on("click", displayAdvice9);
@@ -231,9 +231,9 @@ function displayAdvice14() {
   button14.css('background-color', '#dcdde1');
   environmental.append(`<h3>Environmental</h3>`);
   environmental.append(`<img class="environmentalPic" src="https://images.unsplash.com/photo-1445217143695-467124038776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1133&q=80">`);
-  environmental.append(`<p><strong>It is not the mountain we conquer but ourselves</strong></p>`)
+  environmental.append(`<p><strong>It is not the mountain we conquer but ourselves.</strong></p>`)
   environmental.append(`<p>Continue on in your journey of excellence!</p>`);
-  environmental.append(`<P>Try setting small goals to improve the environment of someone or something arounf you. For example, try "plogging", jogging while picking up trash, as a fun and active way to get invovled</p>`);
+  environmental.append(`<p>Try setting small goals to improve the environment of someone or something around you. For example, try "plogging", jogging while picking up trash, as a fun and active way to get involved</p>`);
 }
 
 button15.on("click", displayAdvice15);
